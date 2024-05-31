@@ -1,0 +1,22 @@
+// Stream methods
+
+Lambda expression is shorthand provided by Java for anonymous method that do not have an owner 
+it means they are not part of class or an interface.
+
+value -> value>5
+
+The function contains both parameter definition and function body.
+
+
+Stream methods
+
+1. Immediate methods
+these methods takes stream as input and gives stream as output
+
+2. Terminal method 
+these methods stop the stream and gives a particular output
+
+count()
+forEach()
+collect()
+reduce()
